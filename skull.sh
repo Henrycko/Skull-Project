@@ -115,7 +115,7 @@ else
                 echo -e $cek_target
             echo "======================================="
                     echo " Gunakan tools dengan bijak! :)"
-                    echo " -thetermuxchoice"
+                    echo " -@thetermuxchoice"
                     echo "======================================="
             else
                     echo "Kesalahan"
